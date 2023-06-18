@@ -26,13 +26,11 @@ Our platform seamlessly integrates with popular social media platforms, such as 
 
 Our content moderation and management website leverages cutting-edge technologies to provide a comprehensive solution. By integrating the YouTube API and content scraping, we gather messages and comments from various sources. The data is then processed using AI-powered sentiment analysis, toxicity detection, and the Huggingface transformer paraphrasing chatbot. With pre-trained models trained on 38 million Twitter data samples, our system accurately identifies hate comments and rephrases them constructively, based on user preferences. Utilizing Firebase real-time database integration, we store and manage the filtered content. To continuously enhance our algorithms, we are developing a feedback system to gather user input on moderation effectiveness. We label negative comments as 0, positive as 1, and natural as 2, providing valuable insights to content creators. Our solution enables efficient content management, promotes a positive online environment, and enhances the overall user experience.
 
-Architecture and System Design:
+ARCHITECTURE DESIGN:
 
-Design a scalable and modular architecture that separates the frontend (user interface) from the backend (server-side logic and API integrations).
-Choose suitable technologies and frameworks based on your preferred programming languages and expertise (e.g., Django, Flask, Node.js, React, Angular, etc.).
-Plan the database schema and choose an appropriate database management system (e.g., MySQL, PostgreSQL) to store user data, posts, comments, and analytics.
+The architecture and system design of the platform follow a scalable and modular approach, separating the frontend from the backend components. The frontend is developed using HTML, CSS, and JavaScript, with Bootstrap for responsive design. For the backend, we have utilized the Django framework, which provides a robust and scalable foundation for server-side logic and API integrations. Additionally, Firebase real-time database is chosen as the database management system to store and manage user data, posts, comments, and analytics. The database schema is designed to efficiently store and retrieve the required information, ensuring optimal performance and data integrity. This architecture allows for flexibility, easy maintenance, and scalability, empowering the platform to handle increasing user demand and future enhancements.
 
-RUNNING THE CODE
+RUNNING THE CODE:
 
 1. Environment Setup:
 
