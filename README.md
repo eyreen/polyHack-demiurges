@@ -51,3 +51,45 @@ RUNNING THE CODE:
 - Build the message and comment management system: Develop the necessary logic to fetch and display direct messages (DMs) and post comments from different social media platforms. Allow users to manage and respond to DMs and comments effectively.
 - Integrate AI-based content moderation: Utilize the AI models mentioned earlier to analyze sentiment and toxicity of messages and comments. Implement algorithms to filter out hate comments or rephrase them based on user preferences, while providing constructive criticism.
 - Implement analytics and reporting: Collect data from social media platforms, calculate metrics such as likes, engagement rates, and sentiment analysis, and generate comprehensive reports. Create a dashboard that displays post performance, comment insights, and relevant analytics.
+
+INPUT AND EXPRECTED OUTPUT:
+
+1. Input:
+
+- User creates a new post by uploading a video, entering a caption, selecting Instagram as the social media platform, and scheduling the post for tomorrow at 10:00 AM.
+- User receives a DM on TikTok containing a positive message.
+- User receives a comment on a YouTube video with negative sentiment.
+- User accesses the analytics section of the SocialSync dashboard to view the performance of a recent Instagram post.
+- User wants to analyze the sentiment and engagement metrics of the comment section on a YouTube video.
+
+2. Expected Output:
+
+- The post is successfully uploaded to Instagram, and the scheduled post will be published on the specified date and time.
+- The positive DM is displayed in the user's SocialSync dashboard, allowing them to view and respond to it.
+- The negative comment is filtered out or rephrased as constructive criticism based on user preferences, and the modified comment is displayed in the user's dashboard.
+- The analytics section displays metrics such as the number of likes, comments, and impressions for the Instagram post. It also provides sentiment analysis of the comments, indicating the percentage of positive, negative, and neutral comments. Additionally, engagement rates, such as likes and comments per follower, are calculated and displayed.
+- The analytics section presents sentiment analysis results for the YouTube video's comment section, showcasing the percentage of positive, negative, and neutral comments. This helps the user gauge the overall sentiment and understand the audience's reaction to the video.
+
+LIMITATIONS
+
+1. Scalability: Enhance the system's scalability to handle a growing user base and increased data volumes. Implement horizontal scaling techniques, load balancing, and distributed computing to ensure optimal performance even with high demand.
+
+2. Performance: Optimize the performance of AI-based content moderation and sentiment analysis algorithms. Utilize algorithmic improvements, parallel processing, and caching to minimize processing times. Leverage cloud-based services for scalability and performance benefits.
+
+3. Known Issues: Address any limitations or known issues related to AI-based content moderation and sentiment analysis. Continuously monitor and fine-tune the algorithms based on user feedback to improve accuracy and effectiveness.
+
+FUTURE ENHANCEMENTS
+
+1. Enhanced AI Models: Continuously develop and refine AI models for sentiment analysis and content moderation. Train the models on diverse datasets and incorporate user feedback to enhance performance and adaptability.
+
+2. User Feedback System: Implement a user feedback system to gather input on content moderation effectiveness. Utilize feedback to fine-tune algorithms and improve user satisfaction.
+
+3. Advanced Analytics: Expand the analytics module to provide comprehensive insights and visualizations. Include metrics like reach, engagement rates, follower growth, and audience demographics. Incorporate data visualization techniques and customizable reporting options for actionable insights.
+
+SUPPORTING MATERIALS
+
+1. Frontend Screenshots: In the "frontend-ss" folder, you will find screenshots depicting the user interface of SocialSync. These screenshots include the dashboard, account management, and post creation screens. These visuals provide a clear understanding of the user experience and interface design.
+
+2. Backend Screenshots: The "backend-ss" folder contains screenshots showcasing the integration of YouTube API within SocialSync. These screenshots illustrate how the system interacts with the YouTube API to fetch comments and apply filtering and paraphrasing algorithms. This gives an insight into the backend implementation and API integration.
+
+3. Comparison AI Model: Explore the "comparison-ai-model" folder to access snippets of original YouTube comments and their corresponding filtered and paraphrased versions. These samples demonstrate the effectiveness of the content moderation algorithms in transforming hate comments into constructive criticism. The comparison helps in understanding the difference and improvement achieved through the AI model integration.
